@@ -1,19 +1,19 @@
 # ssserver_install
 support centos 7
-1. install bbr
-input: 
-wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh
-chmod u+x bbr.sh
-./bbr.sh
-2. check bbr
-input: 
-sysctl net.ipv4.tcp_congestion_control
-ouput:
-net.ipv4.tcp_congestion_control = bbr
-3. install ssserver
-thanks to the author of ss.sh.
-input:
-wget -O ss.sh https://github.com/ajun101/ssserver_install/blob/master/ss.sh
-chmod u+x ss.sh
-./ss.sh
-then follow the guide
+1. install bbr <br/>
+input: <br/>
+wget --no-check-certificate https://github.com/teddysun/across/raw/master/bbr.sh <br/>
+chmod u+x bbr.sh <br/>
+./bbr.sh <br/>
+2. check bbr <br/>
+input: <br/>
+sysctl net.ipv4.tcp_congestion_control <br/>
+ouput: <br/>
+net.ipv4.tcp_congestion_control = bbr <br/>
+3. install ssserver <br/>
+thanks to the author of ss.sh. <br/>
+input: <br/>
+wget -O ss.sh https://github.com/ajun101/ssserver_install/blob/master/ss.sh <br/>
+chmod u+x ss.sh <br/>
+./ss.sh <br/>
+then follow the guide <br/>
