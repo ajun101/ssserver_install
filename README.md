@@ -11,8 +11,9 @@ sysctl net.ipv4.tcp_congestion_control
 ouput:
 net.ipv4.tcp_congestion_control = bbr
 3. install ssserver
+thanks to the author of ss.sh.
 input:
-wget -O ss.sh http://45.32.195.77/file/ss.sh
+wget -O ss.sh https://github.com/ajun101/ssserver_install/blob/master/ss.sh
 chmod u+x ss.sh
 ./ss.sh
 then follow the guide
