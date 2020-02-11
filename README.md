@@ -13,7 +13,7 @@ net.ipv4.tcp_congestion_control = bbr <br/>
 3. install ssserver <br/>
 thanks to the author of ss.sh. <br/>
 input: <br/>
-wget -O ss.sh https://github.com/ajun101/ssserver_install/blob/master/ss.sh <br/>
+wget -O ss.sh https://github.com/ajun101/ssserver_install/raw/master/ss.sh <br/>
 chmod u+x ss.sh <br/>
 ./ss.sh <br/>
 then follow the guide <br/>
