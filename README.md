@@ -24,4 +24,5 @@ thanks to the author of Trojan.sh<br/>
 input: <br/>
 wget -O trojan_centos7.sh https://github.com/atrandys/trojan/raw/master/trojan_centos7.sh <br/>
 <br/>
-project address:https://github.com/atrandys/trojan <br/>
+project address: https://github.com/atrandys/trojan <br/>
+chrome plugin: https://github.com/FelisCatus/SwitchyOmega/releases <br/>
