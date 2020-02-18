@@ -17,3 +17,11 @@ wget -O ss.sh https://github.com/ajun101/ssserver_install/raw/master/ss.sh <br/>
 chmod u+x ss.sh <br/>
 ./ss.sh <br/>
 then follow the guide <br/>
+
+
+3.install Trojan instead<br/>
+thanks to the author of Trojan.sh<br/>
+input: <br/>
+wget -O trojan_centos7.sh https://github.com/atrandys/trojan/raw/master/trojan_centos7.sh <br/>
+<br/>
+project address:https://github.com/atrandys/trojan <br/>
