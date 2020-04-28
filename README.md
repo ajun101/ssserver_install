@@ -27,3 +27,4 @@ or wget https://github.com/V2RaySSR/Trojan/raw/master/Trojan.sh <br/>
 <br/>
 project address: https://github.com/atrandys/trojan <br/>
 chrome plugin: https://github.com/FelisCatus/SwitchyOmega/releases <br/>
+gfwlist: https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt<br/>
