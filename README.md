@@ -28,3 +28,9 @@ or wget https://github.com/V2RaySSR/Trojan/raw/master/Trojan.sh <br/>
 project address: https://github.com/atrandys/trojan <br/>
 chrome plugin: https://github.com/FelisCatus/SwitchyOmega/releases <br/>
 gfwlist: https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt<br/>
+
+update https cert
+acme.sh --issue -d tj.friends-game.top --webroot /usr/share/nginx/html/ --force
+acme.sh --installcert -d tj.friends-game.top --key-file /usr/src/trojan-cert/private.key --fullchain-file /usr/src/trojan-cert/fullchain.cer --reloadcmd "systemctl force-reload nginx.service"
+systemctl stop trojan
+systemctl start trojan
